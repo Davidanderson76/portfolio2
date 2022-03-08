@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: "Catamaran", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.sticky-top {
+  position: sticky;
+}
+.header {
+  background-image: url(./img/IMG_7237.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+}
+.title-name {
+  text-align: center;
+  font-size: xx-large;
+  border: 10px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.1);
+  border-width: 15vh;
+  color: #313131;
+}
+
+h1:hover {
+  opacity: 0.7;
+}
